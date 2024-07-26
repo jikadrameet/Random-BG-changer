@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    /* display: flex;
+    justify-content: center; */
+    background-image: url(images.jpg);
+    width: 100vw;
+    height: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+h3{
+    font-size: 40px;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button:hover{
+    padding: 11px;
+    color: black;
+    background-color: rgb(183, 139, 139);
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    box-shadow: 30px solid rgb(20, 3, 3);
+    font-weight: 20px;
+}
